@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+  # accepts_nested_attributes_for :user
 
   def create
     comment = Comment.create(comment_params)
